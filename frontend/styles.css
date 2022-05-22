@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#sudoku{
+    width: 550px;
+    align-self: center;
+}
+#sudoku input{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#sudoku input:nth-child(even){
+    background-color: rgb(220, 215, 215);
+}
+
+.button{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+#solve{
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
